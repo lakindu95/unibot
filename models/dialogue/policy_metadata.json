@@ -1,0 +1,21 @@
+{
+  "max_histories": [
+    5, 
+    5
+  ], 
+  "python": "2.7.10", 
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble", 
+  "rasa_core": "0.11.4", 
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy", 
+    "rasa_core.policies.keras_policy.KerasPolicy"
+  ], 
+  "action_fingerprints": {
+    "utter_goodbye": {
+      "slots": []
+    }, 
+    "action_listen": {
+      "slots": []
+    }
+  }
+}

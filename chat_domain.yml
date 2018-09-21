@@ -1,0 +1,33 @@
+intents:
+    - degree_info
+    - enquiry
+    - greet
+    - goodbye
+
+# entities:
+#     - cost
+#     - intake
+
+# slots:
+#     cost:
+#         type: text
+#     intake:
+#         type: text
+
+templates:
+  utter_greet:
+    - 'Hello, how can I help you?'
+    - 'Welcome to Informatics Institute Bot, How can I help you?'
+  utter_get_cost:
+    - 'Degree would cost around 2,000,000LKR'
+  utter_get_intake:
+    - 'Next intake will start on this September'
+  utter_goodbye:
+    - 'Talk to you later.'
+    - 'Bye'
+actions:
+  - utter_greet
+  - utter_goodbye
+  - utter_get_cost
+  - utter_get_intake
+  - action_degreeinfo

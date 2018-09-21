@@ -1,0 +1,202 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "hello", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hi", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "goodbye", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "bye", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "see you", 
+        "intent": "goodbye"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 21, 
+            "end": 41, 
+            "value": "software engineering", 
+            "entity": "degree_type"
+          }
+        ], 
+        "intent": "degree_info", 
+        "text": "I want to know about software engineering degree"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 21, 
+            "end": 23, 
+            "value": "software engineering", 
+            "entity": "degree_type"
+          }
+        ], 
+        "intent": "degree_info", 
+        "text": "I want to know about SE degree"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 17, 
+            "end": 37, 
+            "value": "software engineering", 
+            "entity": "degree_type"
+          }
+        ], 
+        "intent": "degree_info", 
+        "text": "Can I know about software engineering degree"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 17, 
+            "end": 20, 
+            "value": "business information systems", 
+            "entity": "degree_type"
+          }
+        ], 
+        "intent": "degree_info", 
+        "text": "Can I know about BIS degree"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 17, 
+            "end": 37, 
+            "value": "business information systems", 
+            "entity": "degree_type"
+          }, 
+          {
+            "start": 17, 
+            "end": 45, 
+            "value": "business information systems", 
+            "entity": "degree_type"
+          }
+        ], 
+        "intent": "degree_info", 
+        "text": "Can I know about Business Information Systems degree"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 22, 
+            "end": 24, 
+            "value": "SE", 
+            "entity": "degree_type"
+          }, 
+          {
+            "start": 10, 
+            "end": 14, 
+            "value": "cost", 
+            "entity": "degree_cost"
+          }
+        ], 
+        "intent": "degree_info", 
+        "text": "Whats the cost of the SE degree?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 25, 
+            "end": 45, 
+            "value": "software engineering", 
+            "entity": "degree_type"
+          }, 
+          {
+            "start": 16, 
+            "end": 21, 
+            "value": "cost", 
+            "entity": "degree_cost"
+          }
+        ], 
+        "intent": "degree_info", 
+        "text": "How much is the price of Software Engineering degree?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 28, 
+            "end": 30, 
+            "value": "software engineering", 
+            "entity": "degree_type"
+          }, 
+          {
+            "start": 17, 
+            "end": 23, 
+            "value": "intake", 
+            "entity": "degree_intake"
+          }
+        ], 
+        "intent": "degree_info", 
+        "text": "When is the next intake for SE?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 28, 
+            "end": 31, 
+            "value": "business information systems", 
+            "entity": "degree_type"
+          }, 
+          {
+            "start": 17, 
+            "end": 23, 
+            "value": "intake", 
+            "entity": "degree_intake"
+          }
+        ], 
+        "intent": "degree_info", 
+        "text": "When is the next intake for BIS?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 37, 
+            "end": 57, 
+            "value": "software engineering", 
+            "entity": "degree_type"
+          }, 
+          {
+            "start": 19, 
+            "end": 32, 
+            "value": "intake", 
+            "entity": "degree_intake"
+          }
+        ], 
+        "intent": "degree_info", 
+        "text": "When will the next starting date for Software Engineering"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 34, 
+            "end": 54, 
+            "value": "software engineering", 
+            "entity": "degree_type"
+          }, 
+          {
+            "start": 12, 
+            "end": 29, 
+            "value": "intake", 
+            "entity": "degree_intake"
+          }
+        ], 
+        "intent": "degree_info", 
+        "text": "When is the registration date for Software Engineering degree?"
+      }
+    ], 
+    "entity_synonyms": [], 
+    "regex_features": []
+  }
+}

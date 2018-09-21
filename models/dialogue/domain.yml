@@ -1,0 +1,30 @@
+actions:
+- utter_greet
+- utter_goodbye
+- utter_get_cost
+- utter_get_intake
+- action_degreeinfo
+config:
+  store_entities_as_slots: true
+entities: []
+intents:
+- enquiry:
+    use_entities: true
+- degree_info:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- greet:
+    use_entities: true
+slots: {}
+templates:
+  utter_get_cost:
+  - text: Degree would cost around 2,000,000LKR
+  utter_get_intake:
+  - text: Next intake will start on this September
+  utter_goodbye:
+  - text: Talk to you later.
+  - text: Bye
+  utter_greet:
+  - text: Hello, how can I help you?
+  - text: Welcome to Informatics Institute Bot, How can I help you?
